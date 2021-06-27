@@ -1,5 +1,5 @@
 import java.util.*;
-class Bank{
+class BankDemo{
 int accno;
 String 	name,type;
 float amount;
@@ -37,11 +37,11 @@ void checkbalance()
 System.out.println("balance is:"+amount);
 }
 }
-class Customer_Bank{
+class Bank{
 public static void main(String args[])
 {
-Bank b =new Bank();
-b.details(123456,"Nisha","savings",2000);
+BankDemo b =new BankDemo();
+b.details(123456,"Anna","savings",2000);
 b.show();
 b.deposit(40000);
 b.checkbalance();
